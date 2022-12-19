@@ -379,12 +379,10 @@ public:
 		//top wall BOUNCE
 		if (bally == height - 1) {
 			ball->changeDirection(ball->getDirection() == DOWNRIGHT ? UPRIGHT : UPLEFT);
-			cout << "heyo";
 		}
 		//bottom wall BOUNCE
 		if (bally == 0) {
 			ball->changeDirection(ball->getDirection() == UPRIGHT ? DOWNRIGHT : DOWNLEFT);
-			cout << "dude";
 		}
 		
 		//left wall, player 1 net
